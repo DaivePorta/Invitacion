@@ -6,6 +6,7 @@ $( document ).ready(function() {
     
     var btn_1 = document.getElementById('open');
     var btn_2 = document.getElementById('reset');
+    var nombre = document.getElementById('nombre');
 
     sobre.click( function() {
         abrir();
@@ -25,7 +26,8 @@ $( document ).ready(function() {
            //$("#open").fadeOut();
            //$("#reset").fadeIn();   
            btn_1.style.display = 'none';
-           btn_2.style.display = 'inline';        
+           btn_2.style.display = 'inline';    
+           nombre.style.display = 'inline';      
     }
     
     function cerrar() {
@@ -34,6 +36,7 @@ $( document ).ready(function() {
            //$("#reset").fadeOut();
            //$("#open").fadeIn();      
            btn_2.style.display = 'none';
+           nombre.style.display = 'none';
            btn_1.style.display = 'inline';     
     }   
 });
