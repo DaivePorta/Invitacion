@@ -63,7 +63,7 @@
 
 .words {
   position: absolute;
-  left: 10%;
+  left: 7%;
   width: 80%;
   height: 14%;
   background-color: #fdb7ba;
@@ -72,19 +72,19 @@
 
 .words.line1 {
   top: 12%;
-  width: 30%;
+  width: 22%;
   height: 13%;
 }
 
 .words.line2 {
   top: 30%;
-  width: 108%;
+  width: 90%;
 }
 
 .words.line3 {
   top: 50%;
   width: 60%;
-  left: 25%;
+  left: 30%;
 }
 
 .words.line4 {
